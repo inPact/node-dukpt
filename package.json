@@ -1,6 +1,6 @@
 {
-  "name": "dukpt",
-  "version": "2.0.1",
+  "name": "dukpt-tabit",
+  "version": "2.0.2",
   "description": "Node JS Library for Derived Unique Key Per Transaction (DUKPT) Encryption",
   "main": "dist/index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   "author": "Deepal Jayasekara <dpjayasekara@gmail.com> (https://jsblog.insiderattack.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dpjayasekara/node-dukpt/issues"
+    "url": "https://github.com/shirbrunner/node-dukpt/issues"
   },
-  "homepage": "https://github.com/dpjayasekara/node-dukpt#readme",
+  "homepage": "https://github.com/shirbrunner/node-dukpt#readme",
   "devDependencies": {
     "babel-cli": "6.18.0",
     "babel-preset-es2015": "6.18.0",
