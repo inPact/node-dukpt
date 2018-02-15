@@ -177,6 +177,13 @@ var Dukpt = function () {
         value: function _createDataKeyHex(ipek, ksn) {
             var derivedPEK = Dukpt._deriveKeyHex(ipek, ksn);
 
+            var isMagTek = true;
+            if(isMagTek)
+            {
+                var pekMask = 'FF00000000000000FF';
+                return DataOperations.XORdataHex(pekMask, derivedPEK);
+            }
+
             var CBC = 1; // cipher block chaining enabled
             var iv = '\0\0\0\0\0\0\0\0'; // initial vector
             var variantMask = '0000000000FF00000000000000FF0000'; // data variant
